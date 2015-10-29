@@ -1,16 +1,21 @@
-#generateButton {
-    width: 50px;
-    height: 50px;
-    background-color: red;
+body {
+    background-color: rgba(255, 246, 192, 0.31);
 }
 
 #companyName {
-    height: 200px;
-    border: 1px solid black;
+    height: 50px;
 }
 
-#assignStaff {
-    width: 50px;
-    height: 30px;
-    background-color: black;
+#FE, #BE, #logic {
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+.scrum-point {
+    text-align: center;
+    font-size: 25px;
+}
+
+.teaminfo {
+    margin: 5px 10px;
 }

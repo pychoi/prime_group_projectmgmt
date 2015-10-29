@@ -2,12 +2,12 @@ var name = require('./employeename');
 var skill = require('./employeeskill');
 var sprint = require('./sprintnumber');
 
-var employeeInfo = [];
+var employeeInfo = {};
 
 var combineInfo = function() {
-    employeeInfo[0] = name();
-    employeeInfo[1] = skill();
-    employeeInfo[2] = sprint();
+    employeeInfo.name = name();
+    employeeInfo.skill = skill();
+    employeeInfo.sprint = sprint();
 
     return employeeInfo;
 }
